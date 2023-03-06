@@ -24,6 +24,7 @@ import {
   php,
   mui,
   bootstrap,
+  udemy,
   } from "../assets";
   
   export const navLinks = [
@@ -127,10 +128,10 @@ import {
       iconBg: "#383E56",
       date: "July 2021 - June 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "BCA or Bachelor of Computer Applications and is a undergraduate degree program in the field of computer applications. ",
+        "It provides students with a strong foundation in computer science and application development.",
+        "Subjects such as C,Python, Java, Database Management, Computer Networks, Web Development, and Software Engineering are covered.",
+        "Hands-on training, Internships and Industry exposure to equip us with the skills and knowledge required to succeed in the rapidly evolving IT industry. ",
       ],
     },
     {
@@ -203,9 +204,30 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "The Complete 2023 Web Development Bootcamp",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "The certificate indicates the entire course was completed as validated by the student.",
+      tags: [
+        {
+          name: "Basic Web development",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "RestApi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MERN Stack",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: jobit,
+      source_code_link: "https://www.udemy.com/certificate/UC-8e26dbf2-b0ea-4a1e-aca7-3a36c0367b44/",
+    },
+    {
+      name: "Real-Estate App",
+      description:
+        "Web-based platform that allows users to search, add and manage Propertis from various Agents, providing a convenient and efficient solution for real-estate needs.",
       tags: [
         {
           name: "react",
@@ -216,35 +238,14 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Mui",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://legendary-sunshine-88abe7.netlify.app/",
     },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
+    /**{
       name: "Trip Guide",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
@@ -264,7 +265,7 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://github.com/",
-    },
+    }, */
   ];
   
   export { services, technologies, experiences, testimonials, projects };
