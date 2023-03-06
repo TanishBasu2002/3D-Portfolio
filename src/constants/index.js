@@ -1,28 +1,29 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+  mobile,
+  creator,
+  backend,
+  web,
+  css,
+  git,
+  html,
+  javascript,
+  mongodb,
+  nodejs,
+  reactjs,
+  redux,
+  tailwind,
+  typescript,
+  threejs,
+  starbucks,
+  tesla,
+  carrent,
+  jobit,
+  tripguide,
+  python,
+  java,
+  php,
+  mui,
+  bootstrap,
   } from "../assets";
   
   export const navLinks = [
@@ -73,10 +74,6 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
@@ -89,6 +86,14 @@ import {
       icon: tailwind,
     },
     {
+      name: "MUI",
+      icon: mui,
+    },
+    {
+      name: "Bootstrap",
+      icon: bootstrap,
+    },
+    {
       name: "Node JS",
       icon: nodejs,
     },
@@ -97,30 +102,30 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Java",
+      icon: java,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "PHP",
+      icon: php,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Bachelor of Computer Applications",
+      company_name: "Maulana Abul Kalam Azad University of Technology",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "July 2021 - June 2024",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,11 +134,11 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "MERN Stack Developer Intern",
+      company_name: "Nosh Technology",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Feb 2023 - May 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -141,7 +146,7 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-    {
+   /** {
       title: "Web Developer",
       company_name: "Shopify",
       icon: shopify,
@@ -166,7 +171,7 @@ import {
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
-    },
+    }, */
   ];
   
   const testimonials = [
